@@ -24,6 +24,21 @@
     font-style: normal;
 }
 
+/* This is !_header_ ! page */
+.header-item {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+/* div in header  */
+.cointainer {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
 /* This is !_body_! page */
 body {
     color: #434455;
@@ -150,10 +165,6 @@ body {
     background-color: #F4F4FD;
 }
 
-.team-item {
-    background-color: #FFFFFF;
-}
-
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -161,6 +172,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.co-workers {
+    display: block;
 }
 
 .team-member-name {
