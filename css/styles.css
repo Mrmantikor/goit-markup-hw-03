@@ -270,6 +270,10 @@ body {
 }
 
 /* Fourth section of project */
+.fourth-section {
+padding-top: 120px;
+}
+
 .section-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
