@@ -24,6 +24,10 @@
     font-style: normal;
 }
 
+img {
+    display: block;
+}
+
 /* This is !_header_ ! page */
 .header-item {
     border-bottom: 1px solid #e7e9fc;
