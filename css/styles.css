@@ -39,6 +39,11 @@
     display: flex;
 }
 
+.navigation-menu {
+    display: flex;
+    align-items: center;
+}
+
 /* This is !_body_! page */
 body {
     color: #434455;
@@ -55,6 +60,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .studio {
@@ -68,6 +74,12 @@ body {
 }
 
 /* Menu Navigation */
+.menu-nav {
+    display: flex;
+    gap: 40px;
+
+}
+
 .menu-nav .menu-nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -83,6 +95,15 @@ body {
 }
 
 /* Menu Adress */
+.adres {
+    font-style: normal;
+    padding: 24px 0; 
+}
+
+.menu-adress {
+    display: flex;
+    gap: 40px;
+}
 .menu-adress .menu-adress-link {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -98,9 +119,6 @@ body {
     color: #404bbf;
 }
 
-.adres {
-    font-style: normal;
-}
 
 /* First section project */
 .first-section {
