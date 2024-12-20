@@ -24,6 +24,26 @@
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 img {
     display: block;
 }
@@ -32,6 +52,8 @@ img {
 .header-item .container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* div in header  */
@@ -133,15 +155,22 @@ body {
     padding: 188px 0;
 }
 
+.first-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
 .title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-     letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
     max-width: 496px;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 56px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
 }
 
 .button {
@@ -150,10 +179,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4D5AE5;
+    color: #ffffff;
+    background-color: #4d5ae5;
     cursor: pointer;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -162,6 +190,7 @@ body {
 
 .button:hover,
 .button:focus {
+    color: #ffffff;
     background-color: #404BBF;
 }
 
