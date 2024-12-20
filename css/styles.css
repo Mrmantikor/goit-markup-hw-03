@@ -52,8 +52,6 @@ img {
 .header-item .container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 /* div in header  */
@@ -226,7 +224,7 @@ body {
 }
 
 .second-list-text {
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px) / 4);
 }
 
 .list-item-title {
@@ -261,7 +259,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -271,7 +269,7 @@ body {
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) /4);
+    width: calc((100%-72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
