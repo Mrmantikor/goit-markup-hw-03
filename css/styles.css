@@ -80,6 +80,9 @@ body {
 
 }
 
+.menu-nav-link {
+    padding: 24px 0;
+}
 .menu-nav .menu-nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -97,7 +100,6 @@ body {
 /* Menu Adress */
 .adres {
     font-style: normal;
-    padding: 24px 0; 
 }
 
 .menu-adress {
